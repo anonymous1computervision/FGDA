@@ -11,6 +11,8 @@ We add extra details of our paper in this repository containing the following as
 
 ***MegRetail*** is collected from the retail scenarios, *i.e.,* instant noodles, fruit juice, mineral water, yogurt and milk.
 
+
+
 We randomly select 5 instances of 263 classes from 3 domains listing in [/MegRetail_Example](https://github.com/Anonymous2019IJCAI/FGDA/tree/master/MegRetail_Example).
 
 ## Evaluation of Self-Attention module
