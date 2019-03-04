@@ -19,9 +19,9 @@ We randomly select 5 instances of 263 classes from 3 domains listing in [/MegRet
 
 ## Evaluation of Self-Attention module
 
-In this part, we use the model trained in semi-supervised setting from <img src="https://latex.codecogs.com/gif.latex?\mathcal{S}" title="\mathcal{S}" /> to <img src="https://latex.codecogs.com/gif.latex?\mathcal{R}" title="\mathcal{R}" /> on ***MegRetail***. And we visualize the features <img src="https://latex.codecogs.com/gif.latex?\mathcal{F}(\mathbf{x})" title="\mathcal{F}(\mathbf{x})" /> we use to select the details of images.
+In this part, we use the model trained in semi-supervised setting from $\mathcal{S}$ to $\mathcal{R}$ on ***MegRetail***. And we visualize the features $\mathcal{F}(\mathbf{x})$ we use to select the details of images.
 
-We choose to visualize it in the form of heat map in the figure present below. The first column is the original images. And the middle column presents the mask <img src="https://latex.codecogs.com/gif.latex?\mathcal{M}(\mathcal{F}(\mathbf{x}))" title="\mathcal{M}(\mathcal{F}(\mathbf{x}))" />.  The third column is our details <img src="https://latex.codecogs.com/gif.latex?\mathbf{X}_p" title="\mathbf{X}_p" />.
+We choose to visualize it in the form of heat map in the figure present below. The first column is the original images. And the middle column presents the mask $\mathcal{M}(\mathcal{F}(\mathbf{x}))$.  The third column is our details $\mathbf{X}_p$.
 
 ![sa_examples](https://github.com/Anonymous2019IJCAI/FGDA/blob/master/pics/saansamples.png?raw=true)
 
