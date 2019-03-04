@@ -1,4 +1,6 @@
 # FGDA
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 For IJCAI 2019 &lt;An Adversarial Domain Adaptation Network for Cross-Domain Fine-Grained Recognition>.
 
 We add extra details of our paper in this repository containing the following aspects:
