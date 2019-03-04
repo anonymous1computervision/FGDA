@@ -8,7 +8,7 @@ We add extra details of our paper in this repository containing the following as
 
 The whole architechture of our model is presented below.
 
-![model]https://github.com/Anonymous2019IJCAI/FGDA/blob/master/pics/model.png?raw=true)
+![model](https://github.com/Anonymous2019IJCAI/FGDA/blob/master/pics/model.png?raw=true)
 
 ## Examples of our proprosed dataset ***MegRetail***
 
