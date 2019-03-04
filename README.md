@@ -19,8 +19,8 @@ We randomly select 5 instances of 263 classes from 3 domains listing in [/MegRet
 
 In this part, we use the model trained in semi-supervised setting from $\mathcal{S}$ to $\mathcal{R}$ on ***MegRetail***. And we visualize the features $\mathcal{F}(\mathbf{x})$ we use to select the details of images.
 
-We choose to visualize it in the form of heat map in the figure present below. The first column is the original images. And the middle column presents the mask $\mathcal{M}(\mathcal{F}(\mathbf{x}))$.  The third column is our details $\mathbf{X}_p$.
+We choose to visualize it in the form of heat map in the figure present below. The first column is the original images. And the middle column presents the mask $\mathcal{M}(\mathcal{F}(\mathbf{x}))​$.  The third column is our details $\mathbf{X}_p​$.
 
-![sa_examples](https://github.com/Anonymous2019IJCAI/FGDA/blob/master/pics/saansamples.jp2?raw=true)
+![sa_examples](https://github.com/Anonymous2019IJCAI/FGDA/blob/master/pics/saansamples.png?raw=true)
 
 We can acquire that **Self-Attention** module can focus on the important parts of images, *e.g.*, the bands, categories and everything that is helpful to recognize the objects. It is obviously that text contains abundant information to help us distinguish different categories. Also in our experiments, employing **Self-Attention** can gain accuracy by 2% in Tab.7.
